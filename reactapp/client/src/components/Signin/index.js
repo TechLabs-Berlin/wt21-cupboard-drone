@@ -1,4 +1,5 @@
 import React from 'react';
+import {FaCarrot} from 'react-icons/fa';
 import {
     Container,
     FormWrap,
@@ -15,9 +16,11 @@ import {
 const SignIn = () => {
     return (
         <>
+            
             <Container>
+            <Icon to="/"><FaCarrot /></Icon>
                 <FormWrap>
-                    <Icon to="/">logo</Icon>
+                    
                     <FormContent>
                         <Form action="#">
                             <FormH1>Sign in to your account</FormH1>

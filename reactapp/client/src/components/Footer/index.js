@@ -1,5 +1,5 @@
 import React from 'react';
-import {FaFacebook, FaInstagram, FaTwitter, FaYoutube} from 'react-icons/fa';
+import {FaFacebook, FaInstagram, FaTwitter, FaYoutube, FaCarrot} from 'react-icons/fa';
 import { animateScroll as scroll } from 'react-scroll';
 import { 
     FooterContainer,
@@ -28,20 +28,26 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Us</FooterLinkTitle>
-                            <FooterLink to="/signin">How it works</FooterLink>
+                            <FooterLinkTitle>About the app</FooterLinkTitle>
+                            <FooterLink to="/signin">Concept</FooterLink>
                             <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Ajsjdddddd</FooterLink>
-                            <FooterLink to="/signin">Bla Bla Bla</FooterLink>
+                            <FooterLink to="/signin">Locations</FooterLink>
+                            <FooterLink to="/signin">Impressum</FooterLink>
+                            
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>Contact</FooterLinkTitle>
-                            <FooterLink to="/signin">How it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Ajsjdddddd</FooterLink>
-                            <FooterLink to="/signin">Bla Bla Bla</FooterLink>
+                            <FooterLinkTitle>Sponsors and Partners</FooterLinkTitle>
+                            <FooterLink to="/signin">Partnerships</FooterLink>
+                            <FooterLink to="/signin">Fund our app</FooterLink>
+                            <FooterLink to="/signin">Advertising</FooterLink>
+                            
+                        </FooterLinkItems>
+                        <FooterLinkItems>
+                            <FooterLinkTitle>Press and Media</FooterLinkTitle>
+                            <FooterLink to="/signin">From Media</FooterLink>
+                            <FooterLink to="/signin">Blog</FooterLink>
+                            <FooterLink to="/signin">Newsletter</FooterLink>
+                            
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                     <FooterLinksWrapper>
@@ -52,22 +58,15 @@ const Footer = () => {
                             <FooterLink to="/signin">Twitter</FooterLink>
                             <FooterLink to="/signin">Youtube</FooterLink>
                         </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Whatever</FooterLinkTitle>
-                            <FooterLink to="/signin">How it works</FooterLink>
-                            <FooterLink to="/signin">Testimonials</FooterLink>
-                            <FooterLink to="/signin">Careers</FooterLink>
-                            <FooterLink to="/signin">Ajsjdddddd</FooterLink>
-                            <FooterLink to="/signin">Bla Bla Bla</FooterLink>
-                        </FooterLinkItems>
+                        
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>
-                            logo
+                        <FaCarrot />
                         </SocialLogo>
-                        <WebsiteRights>dolla ©2022 All Rights Reserved.</WebsiteRights>
+                        <WebsiteRights><FaCarrot /> ©2022 All Rights Reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href="//www.facebook.com" target="_blank" aria-label="Facebook">
                                 <FaFacebook />

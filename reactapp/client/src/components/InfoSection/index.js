@@ -31,6 +31,11 @@ const InfoSection = ({
     dark,
     dark2
 }) => {
+
+    function redirectTo() {
+        window.location.href='/signup';
+    };
+
     return (
         <>
             <InfoContainer lightBg={lightBg} id={id}>
@@ -42,7 +47,7 @@ const InfoSection = ({
                                 <Heading lightText={lightText}>{headline}</Heading>
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
-                                    <Button to='home' 
+                                    <Button onClick={redirectTo} 
                                     smooth={true}
                                     duration={500}
                                     spy={true}

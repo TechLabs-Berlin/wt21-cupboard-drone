@@ -1,3 +1,4 @@
+
 export const homeObjOne = {
     id: 'about',
     lightBg: false,
@@ -27,9 +28,9 @@ export const homeObjTwo = {
     imgStart: false,
     img: require('../../images/svg-2.svg').default,
     alt: 'notifications',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
 
 export const homeObjThree = {
@@ -54,14 +55,15 @@ export const homeObjFour = {
     lightBg: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'sign in',
+    topLine: 'sign up',
     headline: 'Creating an account is extremely easy',
     description: 'Get everything set up and ready Lorem ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum lorem Ipsum.',
-    buttonLabel: 'Start Now',
+    buttonLabel: 'Sign Up',
     imgStart: false,
     img: require('../../images/svg-4.svg').default,
     alt: 'signup',
-    dark: true,
-    primary: true,
-    darkText: false
+    dark: false,
+    primary: false,
+    darkText: true
 };
+

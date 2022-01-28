@@ -1,5 +1,5 @@
 import React, {useState, useEffect} from 'react';
-import {FaBars} from 'react-icons/fa';
+import {FaBars, FaCarrot} from 'react-icons/fa';
 import { animateScroll as scroll} from 'react-scroll';
 import {
     Nav, 
@@ -36,7 +36,7 @@ const Navbar = ({ toggle }) => {
         <>
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
-                    <NavLogo to='/' onClick={toggleHome}>logo</NavLogo>
+                    <NavLogo to='/' onClick={toggleHome}><FaCarrot color="#01bf71" /></NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
@@ -65,6 +65,7 @@ const Navbar = ({ toggle }) => {
                     <NavBtn>
                         <NavBtnLink to="/signin">Sign In</NavBtnLink>
                     </NavBtn>
+                    
                 </NavbarContainer>
             </Nav>
         </>
