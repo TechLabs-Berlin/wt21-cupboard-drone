@@ -2,6 +2,8 @@
 # to the "recommended recipes" feature of our Cupboard app.
 # It expects an ingredient as an input (URL request) and returns
 # the 5 top-rated recipes in the dataset which contain that ingredient.
+# The app has been deployed in heroku and an example request would be:
+# https://cupboard-recommender.herokuapp.com/api/recommended?ingredient=eggplant
 
 import os
 import json
