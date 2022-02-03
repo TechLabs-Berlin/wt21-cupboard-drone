@@ -37,7 +37,7 @@ export const TheCard = styled.div`
 export const Background = styled.div`
     position: relative;
     width: 50%;
-    height: 495px;
+    height: 540px;
     box-shadow: -15px 0 35px rgba(0, 0, 0, 0.1),
     0 -15px 35px rgba(0, 0, 0, 0.1),
     0 15px 35px rgba(0, 0, 0, 0.1);
@@ -93,7 +93,7 @@ export const ShareIconLink = styled.a`
 
 export const ShareIconLinkCalendar = styled.a`
 position: flex;
-margin-left: 207px;
+margin-left: 217px;
 top: 15px;
 right: 15px;
 padding: 4px;
@@ -123,13 +123,10 @@ transition: .5s;
 `;
 
 export const ProductImg = styled.img`
-    position: absolute;
-    width: 140%;
-    opacity: 0;
-    bottom: 0;
-    right: 0;
-    transform: rotate(-20deg);
-    transition: .5s;
+    height: auto;
+    max-width: 100%;
+    
+
 
     @media screen and (max-width: 1070px) {
         width: 135%;
@@ -170,6 +167,7 @@ export const Name = styled.div`
 
 export const BigH1 = styled.h1`
     margin-right: 10px;
+    padding: 3px;
     font-size: 2rem;
     color: #333;
     line-height: 1;
@@ -184,7 +182,7 @@ export const BigH3 = styled.h3`
     font-weight: 600;
     font-size: 1.2rem;
     text-transform: uppercase;
-    padding: 3px;
+    padding: 5px;
     border-bottom: 1px solid #dadada;
 
     @media screen and (max-width: 490px) {
@@ -195,6 +193,7 @@ export const BigH3 = styled.h3`
 
 export const BigH4 = styled.h4`
     font-weight: 500;
+    padding: 2px;
     color: #444;
     margin-top: 3px;
     margin-bottom: 2px;

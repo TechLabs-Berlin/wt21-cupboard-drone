@@ -18,6 +18,27 @@ import {
     Quantity,
     Size
 } from './CardElements';
+/* import { useEffect } from 'react';
+
+
+function Cards() {
+    const [productName, setProductName]=useState([])
+    useEffect(() => {
+        fetchProductName();
+    }, [])
+
+}
+*/
+
+
+
+
+
+
+
+
+
+
 
 const Cards = () => {
   return (
@@ -28,31 +49,32 @@ const Cards = () => {
                 <ShareIconLink src="/" target="_blank" aria-label="Share">
                     <FaShareAlt />
                 </ShareIconLink>
-                </ShareIcon>
-                <ProductImg href='https://cdn.pixabay.com/photo/2020/11/22/12/35/potato-5766477_1280.png' alt=""/>
+                </ShareIcon >
+                <ProductImg img src={require('../../images/avocado.png')} />
             </Background>
             <Info>
                 <Name>
                     
-                    <BigH1>Product name</BigH1>
+                    <BigH1>AVOCADO</BigH1>
                     
-                    <BigH4>Product info</BigH4>
+                    <BigH4>(Product info)</BigH4>
                 </Name>
                 
-                    <BigH3>Classification</BigH3>
-                    <BigH4>Category (Dairy)</BigH4>
-                    <BigH4>Location (Fridge)</BigH4>
+                    <BigH3>Classification:</BigH3>
+                    <BigH4>Category - FRUIT</BigH4>
+                    <BigH4>Location - Cupboard</BigH4>
                 
                     
                     <BigH3>Date</BigH3>
-                    <BigH4>Purchase date:
+                    
+                    <BigH4>Purchase date: January 29.
                     
                         <ShareIconLinkCalendar src="/" target="_blank" aria-label="Calendar">
                             <FaCalendarDay />
                         </ShareIconLinkCalendar>
                 
                     </BigH4>
-                    <BigH4>Best before:
+                    <BigH4>Best before: February 6.
 
                         <ShareIconLinkCalendar src="/" target="_blank" aria-label="Calendar">
                                 <FaCalendarDay />
@@ -68,7 +90,7 @@ const Cards = () => {
                     </Quantity>
                 </QuantityContainer>
                 <CardButton type="submit">Cancel</CardButton>
-                <CardButton type="submit">Add</CardButton>
+                <CardButton type="submit">Use this</CardButton>
             </Info>
         </TheCard>
     </Container>

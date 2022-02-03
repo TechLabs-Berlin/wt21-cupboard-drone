@@ -11,7 +11,7 @@ from fastai.vision.all import *
 from werkzeug.utils import secure_filename
 from flask_cors import CORS
 
-#Where images are downloaded to and what types of images are allowed:
+#Where images are downloaded to and what types of images are allowed: 
 UPLOAD_FOLDER = "test_images"
 ALLOWED_EXTENSIONS = {'jpg', 'png'}
 # path for the trained classifier
@@ -79,8 +79,8 @@ def prediction():
     # apply the model to the image
     pred_class, ti1, ti2 = learner.predict(img)
     print("pred_class is: ",pred_class)
-    predict_string = "Our model thinks this is: "+pred_class
-    prediction = {'prediction_key':predict_string}
+    predict_string = pred_class
+    prediction = {'prediction_key': predict_string+ " (click me!)"}
     #return(render_template('prediction.html',prediction=prediction))
     return prediction
         
