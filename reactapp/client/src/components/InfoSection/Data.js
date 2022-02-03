@@ -9,7 +9,7 @@ export const homeObjOne = {
     description: 'Track your food Lorem ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum lorem Ipsum.',
     buttonLabel: 'Get Started',
     imgStart: true,
-    img: require('../../images/svg-1.svg').default,
+    img: require('../../images/svg-11.svg').default,
     alt: 'inform',
     dark: true,
     primary: true,

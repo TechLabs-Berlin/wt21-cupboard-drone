@@ -99,7 +99,7 @@ export const FormButton = styled.button`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #0CFE18;
+        background: linear-gradient(to top, #093028, #237a57);
         color: #000;
     }
 `;
@@ -112,6 +112,6 @@ export const Text = styled.span`
     
     &:hover {
         transition: all 0.2s ease-in-out;
-        color: #F2FE0C;
+        color: #43C6AC;
     }
 `;
