@@ -1,70 +1,81 @@
-# Getting Started with Create React App
+# **The Cupboard**
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## **The Cupboard** is here to offer a smart way of using food products, preventing the food to be wasted. This app tracks your products and notifies you if a product is going to expire soon. The app offers an option to donate your food to the food banks or directly to the ones in need. Believe it or not, the delivery is maintained with drones!
 
-## Available Scripts
 
-In the project directory, you can run:
 
-### `npm start`
+![The Cupboard Logo](/reactapp/client/src/images/logo-cupboard.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## **The Cupboard** is an educative project designed, administred and accomplished by students of TechLabs Berlin (Winter Semester 2021/2022)
 
-### `npm test`
+![The Desktop vers. 1](/reactapp/client/src/images/cupboard-hero.png)
+![The Desktop vers. 2](/reactapp/client/src/images/cupboard-services.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+ ## **Built with** 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+ * [React](https://reactjs.org/)
+ * [StyledComponents](https://styled-components.com/)
+ * [Python](https://www.python.org/)
+ * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+ * [Pytorch](https://pytorch.org/)
+ * [fastai](https://fastai1.fast.ai/index.html)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+ ## **Installation**
 
-### `npm run eject`
+1. React App
+```sh
+    npm install
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+2. Flask app
+```sh
+    pip install flask fastai os numpy pathlib cors
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Run the React app from the Client folder
+```sh
+    npm start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+4. Run the Flask app from the fruit_vegg_app folder
+```sh
+    flask run
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+![The Mobile vers. 1](/reactapp/client/src/images/cupboard-mobile2.png)
+![The Mobile vers. 2](/reactapp/client/src/images/cupboard-mobile1.png)
+ 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## **Team Members** 
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+### **Emma Carballal**, AI team
+### **Mihailo Rakic**, WD team
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## **Mentor** 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### **Peter Fessel**
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## **Contributors**
 
-### Advanced Configuration
+### Hannah Eberhardt, WD
+### Palak Gupta, UX
+### Parrish, UX
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## **Licence** 
 
-### `npm run build` fails to minify
+### **The Cupboard** app is only for educational purposes. The App does not have any commercial or data sharing/usage intentions.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+## **Acknowledgements**
+
+### Special thanks to our mentor, track leads and journey leads from the Techlabs Berlin who shared their time and knowledge with us through this learning adventure - Daniel Da Rocha, Snjezana Anna Frketic, Zubin John, Stephanie Mennear, Maximillian Schall, Laura Dobson, Basan Kuberlinov and Peter Fessel.
