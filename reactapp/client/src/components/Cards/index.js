@@ -18,24 +18,6 @@ import {
     Quantity,
     Size
 } from './CardElements';
-/* import { useEffect } from 'react';
-
-
-function Cards() {
-    const [productName, setProductName]=useState([])
-    useEffect(() => {
-        fetchProductName();
-    }, [])
-
-}
-*/
-
-
-
-
-
-
-
 
 
 
