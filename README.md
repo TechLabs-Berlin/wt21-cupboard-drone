@@ -13,30 +13,51 @@
 ![The Desktop vers. 2](/reactapp/client/src/images/cupboard-services.png)
 
 
+ ## **Built with** 
 
 
- ## **Built with**
+ * [React](https://reactjs.org/)
+ * [StyledComponents](https://styled-components.com/)
+ * [Python](https://www.python.org/)
+ * [Flask](https://flask.palletsprojects.com/en/2.0.x/)
+ * [Pytorch](https://pytorch.org/)
+ * [fastai](https://fastai1.fast.ai/index.html)
 
+ ## **Installation**
 
- ### [React] (https://reactjs.org/)
- ### [StyledComponents] (https://styled-components.com/)
- ### [Python] (https://www.python.org/)
- ### [Flask] (https://flask.palletsprojects.com/en/2.0.x/)
- ### [Pytorch] (https://pytorch.org/)
- ### [fastai] (https://fastai1.fast.ai/index.html)
+1. React App
+```sh
+    npm install
+```
+
+2. Flask app
+```sh
+    pip install flask fastai os numpy pathlib cors
+```
+
+3. Run the React app from the Client folder
+```sh
+    npm start
+```
+
+4. Run the Flask app from the fruit_vegg_app folder
+```sh
+    flask run
+```
+
 
 ![The Mobile vers. 1](/reactapp/client/src/images/cupboard-mobile2.png)
 ![The Mobile vers. 2](/reactapp/client/src/images/cupboard-mobile1.png)
  
 
-## **Team Members**
+## **Team Members** 
 
 
 ### **Emma Carballal**, AI team
 ### **Mihailo Rakic**, WD team
 
 
-## **Mentor**
+## **Mentor** 
 
 ### **Peter Fessel**
 
